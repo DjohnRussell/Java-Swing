@@ -23,7 +23,10 @@ In this repo:
 Dreams
 ---------------------------------------
 ---------------------------------------
-BestillingApp:
+BestillingApp
+---------------------------------------
+---------------------------------------
+BestillingApp (Auyomat)
 
 This Java Swing project represents a significant milestone in my second year of computer engineering. During this year, we were tasked with creating an autonomous robot designed to fulfill a crucial role during challenging times, such as the COVID-19 pandemic, especially in vulnerable locations like hospitals. The core idea behind this project was to blend advanced technology with practical applications that could make a meaningful difference.
 
