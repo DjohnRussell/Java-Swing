@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="no.hiof.danieljr.Forms.wisperCave">
+  <grid id="27dc6" binding="mainPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1367" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3d99c" binding="cardLayoutPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="63cdc" binding="startPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ad152" class="javax.swing.JLabel" binding="headLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16448250"/>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value="You now enterd the whispers Cave"/>
+                </properties>
+              </component>
+              <component id="40f1e" class="javax.swing.JTextField" binding="nameField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16155095"/>
+                  <font name="Courier New" size="16" style="1"/>
+                  <foreground color="-16448250"/>
+                </properties>
+              </component>
+              <component id="61939" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16448250"/>
+                  <font size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Name"/>
+                </properties>
+              </component>
+              <component id="cbabf" class="javax.swing.JButton" binding="pressButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Press"/>
+                </properties>
+              </component>
+              <component id="5daa2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Plz type in your name"/>
+                </properties>
+              </component>
+              <component id="868d7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="48"/>
+                  <foreground color="-16155095"/>
+                  <text value="Whispers Cave"/>
+                </properties>
+              </component>
+              <component id="fc7aa" class="javax.swing.JLabel" binding="picLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e5bf6" binding="firstChoice" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5a70f" class="javax.swing.JLabel" binding="setNameIntroLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="cffb6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="The cave now has two ways to go, the first way you can hear a low whispering voice and the other one a load roar."/>
+                </properties>
+              </component>
+              <component id="186c0" class="javax.swing.JButton" binding="theRoarWayButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="The roar way"/>
+                </properties>
+              </component>
+              <component id="23265" class="javax.swing.JButton" binding="theWisperWayButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="The whisper way"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1fa58" binding="wisperPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5d5f4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value="The whisper way"/>
+                </properties>
+              </component>
+              <component id="1b63c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16155095"/>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="A little girl is sitting on the ground, you can barely see her, she is crying and coveing her face"/>
+                </properties>
+              </component>
+              <component id="d733e" class="javax.swing.JButton" binding="pretendLikeNothingAndButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Pretend like nothing and pass her"/>
+                </properties>
+              </component>
+              <component id="20e69" class="javax.swing.JButton" binding="goUpToHerButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16448250"/>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Go up to her"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="70cfe" binding="roarPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d9037" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value="The roar"/>
+                </properties>
+              </component>
+              <component id="2ef7d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="You now see, a chamber.. It has an opening, you accually see day light and might be able too climb out."/>
+                </properties>
+              </component>
+              <component id="1d6bb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16155095"/>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="There is also another way continueing down from the chamber."/>
+                </properties>
+              </component>
+              <component id="4573f" class="javax.swing.JButton" binding="continueDownTheCaveButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Continue down the cave"/>
+                </properties>
+              </component>
+              <component id="ac26b" class="javax.swing.JButton" binding="tryToClimbOutButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Try to climb out"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="879f6" binding="firstCPretendLikeNothing" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card5"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b8a36" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value="The whispering girl looks at you. She is not crying.. Shes laughing"/>
+                </properties>
+              </component>
+              <component id="b30e3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="She died along time ago, you realize the situation... "/>
+                </properties>
+              </component>
+              <component id="eb8e6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="But it's to late......"/>
+                </properties>
+              </component>
+              <component id="265f7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16448250"/>
+                  <font name="Courier New" size="28"/>
+                  <foreground color="-8517866"/>
+                  <text value="GAME OVER"/>
+                </properties>
+              </component>
+              <component id="a9950" class="javax.swing.JButton" binding="playAgainButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Play Again"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="206ca" binding="goUpToHerPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card6"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9ab62" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value="The Helping Hand"/>
+                </properties>
+              </component>
+              <component id="e1d3d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="The Little girl tells you shes 9 year old, she takes your hand and leads you deeper into the cave"/>
+                </properties>
+              </component>
+              <component id="c0963" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="The little girl tells you, What's the number iam thing of now, can you guess it ?"/>
+                </properties>
+              </component>
+              <component id="4651" class="javax.swing.JTextField" binding="numberField">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16155095"/>
+                  <font name="Courier New" size="16" style="1"/>
+                  <foreground color="-16448250"/>
+                </properties>
+              </component>
+              <component id="2dc23" class="javax.swing.JButton" binding="guessButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Guess"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="846fe" binding="tryToClimPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card7"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6ee45" class="javax.swing.JLabel" binding="nameClimbField">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="52922" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="You tryed too climb. A whispering voice is getting closer and closer, you lose your grip and fall...."/>
+                </properties>
+              </component>
+              <component id="819c3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Now you will join the wisper in the cave."/>
+                </properties>
+              </component>
+              <component id="13c25" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="28"/>
+                  <foreground color="-8517866"/>
+                  <text value="GAME OVER"/>
+                </properties>
+              </component>
+              <component id="821b7" class="javax.swing.JButton" binding="playAgainButton1" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Play Again"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f27e8" binding="youRRightPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card8"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bca0f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="22"/>
+                  <foreground color="-16155095"/>
+                  <text value="You are right"/>
+                </properties>
+              </component>
+              <component id="71c96" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="let's see if you get this one. My name is Live, btw"/>
+                </properties>
+              </component>
+              <component id="8f6d9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="I hava another challenge for you. You op for it ?"/>
+                </properties>
+              </component>
+              <component id="e3fbb" class="javax.swing.JTextField" binding="yNField">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16155095"/>
+                  <font name="Courier New" size="16" style="1"/>
+                  <foreground color="-16448250"/>
+                  <text value="Y/N"/>
+                </properties>
+              </component>
+              <component id="34a46" class="javax.swing.JButton" binding="pressButton2" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Press"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="313de" binding="Challenge" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card9"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9e107" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="28"/>
+                  <foreground color="-16155095"/>
+                  <text value="The Challange"/>
+                </properties>
+              </component>
+              <vspacer id="9f2b5">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="1565" binding="wtfPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card10"/>
+            </constraints>
+            <properties>
+              <background color="-16448250"/>
+              <font name="Courier New" size="16"/>
+              <foreground color="-16155095"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="638f4" class="javax.swing.JLabel" binding="wftPanel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="28"/>
+                  <foreground color="-8517866"/>
+                  <text value="Game Over"/>
+                </properties>
+              </component>
+              <component id="327d5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16448250"/>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="Live is a little girl, she whent missing in 1805, her name Live is an old norse name. "/>
+                </properties>
+              </component>
+              <component id="520eb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16"/>
+                  <foreground color="-16155095"/>
+                  <text value="She is a whisper, one of the those who have died in the cave. She took your life as you couldent complete the taskes she had lead out for you."/>
+                </properties>
+              </component>
+              <component id="19106" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
