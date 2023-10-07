@@ -44,11 +44,15 @@ Seamless Code Update:
 To ensure the robot's smooth operation and the application's continued improvement, we implemented a feature for remote code updates. Within the same directory as the ordering app, we included a Bash script that leveraged SSH Secure Remote Protocol (SRP) to update the robot's code. This script could update all devices simultaneously or target a specific device, providing flexibility and ease of maintenance.
 
 In essence, our project not only showcased technical innovation but also addressed real-world challenges by introducing automation and reducing human contact in critical environments. BestillingApp played a pivotal role in this initiative, making it possible for users to interact with the robot effortlessly, while the Raspberry Pi-powered robot executed its tasks with precision and efficiency.
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
 Isaac
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
+Isaac:
+
+I've developed a user-friendly baby logging app designed to effortlessly track essential information such as feeding, diaper changes (pee/poo), and even calculate the milk consumption based on the baby's weight. All data is meticulously recorded and can be conveniently shared with healthcare professionals at hospitals when needed.
 
 
 
