@@ -1,6 +1,6 @@
 # Java-Swing
---------------------------------------
---------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Some Swing projects
 
@@ -18,15 +18,14 @@ Never gonna tell a lie and hurt you
 ;P
 
 In this repo: 
----------------------------------------
----------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 Dreams
----------------------------------------
----------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 BestillingApp
----------------------------------------
----------------------------------------
-BestillingApp (Auyomat)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BestillingApp (Automat)
 
 This Java Swing project represents a significant milestone in my second year of computer engineering. During this year, we were tasked with creating an autonomous robot designed to fulfill a crucial role during challenging times, such as the COVID-19 pandemic, especially in vulnerable locations like hospitals. The core idea behind this project was to blend advanced technology with practical applications that could make a meaningful difference.
 
@@ -45,6 +44,12 @@ Seamless Code Update:
 To ensure the robot's smooth operation and the application's continued improvement, we implemented a feature for remote code updates. Within the same directory as the ordering app, we included a Bash script that leveraged SSH Secure Remote Protocol (SRP) to update the robot's code. This script could update all devices simultaneously or target a specific device, providing flexibility and ease of maintenance.
 
 In essence, our project not only showcased technical innovation but also addressed real-world challenges by introducing automation and reducing human contact in critical environments. BestillingApp played a pivotal role in this initiative, making it possible for users to interact with the robot effortlessly, while the Raspberry Pi-powered robot executed its tasks with precision and efficiency.
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+Isaac
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
